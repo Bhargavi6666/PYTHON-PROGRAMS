@@ -1,0 +1,110 @@
+
+1.Read the requirements end to end
+2.List all the classes
+3.List all the ATTRIBUTES of a classes
+4.List all the ACTIONS and METHODS for each class
+5.Assign tags(public/protected + class/instance for attributes)
+6.Assign tags(public/protected + class/instance/static for methods)
+ENCAPSULATION-Done
+Inheritance:
+7. Move common properties to parent class
+
+LISTING ALL THE CLASSES:
+Class Deer:
+	------Attributes:
+				1.breed	--------protected, ------instance
+				2.age_in_months	--------protected, ------instance
+				3.required_food_in_kgs	--------protected, ------instance
+	------Methods:
+				1.grow		--------public,--------instance method
+				2.make_sound		--------public,--------instance method
+				3.breathe		--------public,--------instance method
+Class Lion:
+	------Attributes:
+				1.breed	--------protected, ------instance
+				2.age_in_months	--------protected, ------instance
+				3.required_food_in_kgs	--------protected, ------instance
+	------Methods:
+				1.grow		--------public,--------instance method
+				2.make_sound		--------public,--------instance method
+				3.breathe		--------public,--------instance method
+Class Shark:
+	------Attributes:
+				1.breed	--------protected, ------instance
+				2.age_in_months	--------protected, ------instance
+				3.required_food_in_kgs	--------protected, ------instance
+	------Methods:
+				1.grow		--------public,--------instance method
+				2.make_sound		--------public,--------instance method
+				3.breathe		--------public,--------instance method
+Class GoldFish:
+	------Attributes:
+				1.breed	--------protected, ------instance
+				2.age_in_months	--------protected, ------instance
+				3.required_food_in_kgs	--------protected, ------instance
+	------Methods:
+				1.grow		--------public,--------instance method
+				2.make_sound		--------public,--------instance method
+				3.breathe		--------public,--------instance method
+Class Snake:
+	------Attributes:
+				1.breed	--------protected, ------instance
+				2.age_in_months	--------protected, ------instance
+				3.required_food_in_kgs	--------protected, ------instance
+	------Methods:
+				1.grow		--------public,--------instance method
+				2.make_sound		--------public,--------instance method
+				3.breathe		--------public,--------instance method
+Class Zoo:
+	------Attributes:
+				1.reserved_food_in_kgs	--------protected, ------instance
+				2.animals_list	--------protected, ------instance
+				3.required_food_in_kgs	--------protected, ------instance
+	------Methods:
+				1.feed		--------public,--------instance method
+				2.add_animals		--------public,--------instance method
+				3.count_animals		--------public,--------instance method
+				4.add_food_to_reserve		--------public,--------instance m
+				5.count_of_animals_in_all_zoos	--------public,--------class m
+				6.count_of_animals_in_given_zoos	--------public,--------static 
+
+
+
+INHERITANCE:
+Class Animal:
+	------Attributes:
+				1.breed	--------protected, ------instance
+				2.age_in_months	--------protected, ------instance
+				3.required_food_in_kgs	--------protected, ------instance
+	------Methods:
+				1.grow		--------public,--------instance method
+				2.make_sound		--------public,--------instance method
+				3.breathe		--------public,--------instance method
+Class HuntingAnimal:
+	------Methods:
+				1.hunt  			--------public,--------instance method
+
+Class Deer: INHERITS ANIMAL
+	------Attributes:
+				
+	------Methods:
+				
+Class Lion:   INHERITS ANIMAL AND HUNTING ANIMAL
+	------Attributes:
+				
+	------Methods:
+				
+Class Shark:   INHERITS ANIMAL AND HUNTING ANIMAL
+	------Attributes:
+				
+	------Methods:
+				
+Class GoldFish: INHERITS ANIMAL
+	------Attributes:
+		
+	------Methods:
+				
+Class Snake:  INHERITS ANIMAL AND HUNTING ANIMAL
+	------Attributes:
+				
+	------Methods:
